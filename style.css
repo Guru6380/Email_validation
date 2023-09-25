@@ -1,0 +1,72 @@
+/* Reset default margin and padding */
+body, div, form, label, input, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .reform {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .reform form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reform div {
+    margin-bottom: 10px;
+  }
+  
+  .reform label {
+    font-weight: bold;
+  }
+  
+  .reform input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  .reform input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .reform button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .reform button[type="reset"] {
+    background-color: #f1c40f;
+  }
+  
+  .reform button[type="submit"] {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  .reform button[type="reset"]:hover,
+  .reform button[type="submit"]:hover {
+    background-color: #e74c3c;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media screen and (max-width: 400px) {
+    .reform {
+      width: 90%;
+    }
+  }
+  
